@@ -1,33 +1,66 @@
 #navbar {
-	display: inline;
-		p {
+display: inline;
+		h1 {
 		text-decoration:none;
 		display:inline;
 		text-align:left;
-		color: #FFF;
+		color: #121212;
 		position: absolute;
-		padding-left: 15px;
+		padding-left: 20px;
+		line-height: 40px;
 		}
 		ul {
 		display:inline;
 		float: right;
+		padding-right: 20px;
 			li{
 			display:inline;
 			text-align:right;
+			line-height: 60px;
+			border-left: 2px solid #121212;
+			border-right: 2px solid #121212;
 				a {
 				position:relative;
 				text-decoration:none;
-				color: #FFF;
+				color: #121212;
 				padding: 10px;
 				vertical-align:center;
 				}
+				a:hover{
+				color: #0000FF;
+				}
+			}
+			li:hover{
+			border-left: 2px solid #0000FF;
+			border-right: 2px solid #0000FF;
 			}
 		}		
 }
 
 #navbar-wrapper {
-background-color: #000;
+background-color: #8BD6CC;
 border-radius: 17px;
-height: 100px;
+height: 80px;
 position: relative;
+}
+
+#accessory-list {
+	display: inline;
+	position:absolute;
+	padding-left: 1465px;
+	margin-top: 2px;
+	float:right;
+		li{
+		display:inline;
+		text-decoration: none;
+		padding-left: 5px;
+			a{
+			text-decoration:none;
+			color: #121212;
+			font-size: 11px;
+			}
+		}
+}
+body {
+background-image: url('wall_background_texture.png');
 }
