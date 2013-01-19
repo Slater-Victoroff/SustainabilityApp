@@ -1,0 +1,33 @@
+#navbar {
+	display: inline;
+		p {
+		text-decoration:none;
+		display:inline;
+		text-align:left;
+		color: #FFF;
+		position: absolute;
+		padding-left: 15px;
+		}
+		ul {
+		display:inline;
+		float: right;
+			li{
+			display:inline;
+			text-align:right;
+				a {
+				position:relative;
+				text-decoration:none;
+				color: #FFF;
+				padding: 10px;
+				vertical-align:center;
+				}
+			}
+		}		
+}
+
+#navbar-wrapper {
+background-color: #000;
+border-radius: 17px;
+height: 100px;
+position: relative;
+}
